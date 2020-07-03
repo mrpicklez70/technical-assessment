@@ -1,1 +1,10 @@
-{}
+{
+    "baseUrl": "http://34.205.174.166",
+    "env":null,
+    "projectId": null,
+    "watchForFileChanges": false,
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "integrationFolder": "cypress/integration",
+    "defaultCommandTimeout": 10000
+  }

@@ -1,0 +1,22 @@
+{
+  "name": "technical-assessment",
+  "version": "1.0.0",
+  "description": "GAP - Technical Assessment - Alvaro Sandoval",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpicklez70/technical-assessment.git"
+  },
+  "author": "mrpicklez70",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpicklez70/technical-assessment/issues"
+  },
+  "homepage": "https://github.com/mrpicklez70/technical-assessment#readme",
+  "devDependencies": {
+    "cypress": "^4.9.0"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "GAP - Technical Assessment - Alvaro Sandoval",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mrpicklez70/technical-assessment#readme",
   "devDependencies": {
-    "cypress": "^4.9.0"
+    "chai": "^4.2.0",
+    "cypress": "^4.9.0",
+    "mocha": "^8.0.1"
   }
 }

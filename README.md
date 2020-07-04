@@ -18,7 +18,9 @@ npm install
 
 
 ## PART I
-In order to implement the solution to the proposed problem in this section, I used `Nodejs native modules` *(to prevent potential issues across Nodejs versions and community libraries)*.
+For the solution to the proposed problem in this section, I used `Nodejs native modules` *(to prevent potential issues across Nodejs versions and community libraries)*.
+
+Also, rather than using Javascript native built-in functions for iterating through the file-content-array (like for `map()`, `reduce()` or `filter()`), I used the conventional `for loop`. This is because, while investigating the differences between these options, when it comes to  performance in small data sets (5 - 1000 elements in length) the `for loop` is more efficient. Refer to these [super interesting research docs](https://github.com/dg92/Performance-Analysis-JS#results-for-small-data-set-of-array-size-5---1000) for further details. :nerd_face:
 
 To **run the solution**, open a terminal in the root of the project and execute this command:
 
@@ -27,6 +29,17 @@ node first-item/challenge.js
 ```
 
 ![](images/first-item.jpg)
+
+
+For writing the **unit tests** I installed `mocha` as test runner and `chai` as assertion library. 
+
+To execute the **unit tests**, run this command:
+
+```bash
+npm run test
+```
+
+![](images/unit-tests.png)
 
 
 ## PART II

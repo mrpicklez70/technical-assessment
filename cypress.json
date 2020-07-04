@@ -7,4 +7,4 @@
     "viewportHeight": 768,
     "integrationFolder": "cypress/integration",
     "defaultCommandTimeout": 10000
-  }
+}

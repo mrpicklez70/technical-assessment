@@ -40,5 +40,5 @@ Cypress.Commands.add('deleteProduct', function(headers, productId){
         url: `${Cypress.config().baseUrl}/wp-json/wc/v3/products/${productId}`,
         auth: headers,
         body: {force: true}
-    });
+    }).its('status').should('equal', 200);
 });
